@@ -1,0 +1,53 @@
+# build artifacts (VB)
+.generated_files/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# added by VB
+*.elf
+*.hex
+build/
+dist/
+*.s~
+*.un~
+*.swp
+*.*~
+.DS_Store
+private/
+**/nbproject/Makefile-*
+**/.generated_files/
+**/.main-meta/
+**/firmware/**/*.inx
+**/firmware/**/*.log
+
