@@ -266,7 +266,7 @@ static int testResult(int testNum,
     // build the string to be sent out over the serial lines
     snprintf((char*)uartTxBuffer, MAX_PRINT_LEN,
             "========= Test Number: %d =========\r\n"
-            "test case INPUT: packed value:                %11ld\r\n"
+            "test case INPUT: packed value:                 0x%08lx\r\n"
             "test case INPUT: (unpacked) multiplier (a):   %11ld\r\n"
             "test case INPUT: (unpacked) multiplicand (b): %11ld\r\n"
             "packed mem check p/f:  %s\r\n"
