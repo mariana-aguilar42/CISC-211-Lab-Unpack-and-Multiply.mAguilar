@@ -265,8 +265,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAME51_DFP" vendor="Microchip" version="3.8.253"/>
         <pack name="CMSIS" vendor="ARM" version="6.2.0"/>
+        <pack name="SAME51_DFP" vendor="Microchip" version="3.8.253"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1558,6 +1558,7 @@
         <property key="toolpack.updateoptions.packversion"
                   value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
+        <property key="x.erase.clearprot" value="true"/>
       </nEdbgTool>
     </conf>
   </confs>
